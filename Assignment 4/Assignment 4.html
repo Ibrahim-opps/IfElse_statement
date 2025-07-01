@@ -1,0 +1,181 @@
+<html>
+<head>
+    <title>Assignment 4</title>
+    <script>
+        let age=prompt("Enter Age")
+if(isNaN(age)){
+    console.log("Invalid Input")
+    alert("Invaild Input")
+}else if(age<=12){
+    console.log("Child")
+    alert("Child")
+}else if(age<=19){
+    console.log("Benzema")
+    alert("Benzema")
+}else if(age<=59){
+    console.log("Adult")
+    alert("Adult")
+}else{
+    console.log("Senior Citizen")
+    alert("Senior Citizen")
+}
+        let number=prompt("Enter Number")
+        if(isNaN(number)){
+            console.log("Invalid Input")
+            alert("Invalid Input")
+        }else if(number%2==0){
+            console.log("Even Number")
+            alert("Even Number")
+        }else{
+            console.log("Odd Number")
+            alert("odd Number")
+        }
+        let numb=prompt("Emter your number")
+            if(isNaN(numb)){
+                console.log("Invalid input")
+                alert("Invalid Input")
+            }else if(numb>0){
+                console.log("Positive Number")
+                alert("Positive Number")
+            }else if(numb==0){
+                console.log("Zero")
+                alert("Zero")
+            }else{
+                console.log("Negative Number")
+                alert("Negative Number")
+            }
+            let Lt = prompt("Enter a single letter from the English alphabet");
+        if (Lt.length !== 1) {
+            alert("Invalid input. Please enter only ONE letter.");
+            console.log("Invalid input");
+        }
+        else if (Lt === "a" || Lt === "A") {
+            alert("Vowel");
+            console.log("Vowel");
+        } else if (Lt === "e" || Lt === "E") {
+            alert("Vowel");
+            console.log("Vowel");
+        } else if (Lt === "i" || Lt === "I") {
+            alert("Vowel");
+            console.log("Vowel");
+        } else if (Lt === "o" || Lt === "O") {
+            alert("Vowel");
+            console.log("Vowel");
+        } else if (Lt === "u" || Lt === "U") {
+            alert("Vowel");
+            console.log("Vowel");
+        }else{
+            console.log("Consonant")
+            alert("Consonant")
+       }
+       let num=prompt("Enter First Number")
+        let num1=prompt("Enter Second Number")
+        let operator=prompt("Enter an operator(+,-,*,/,%)")
+        if(isNaN(num&&num1)){
+            console.log("Invalid Input,please enter a number")
+            alert("Invalid input,please enter a number")
+        }else if(operator==='+'){
+            console.log(num+num1)
+            alert(num+num1)
+        }else if(operator==='-'){
+            console.log(num-num1)
+            alert(num-num1)
+        }else if(operator==='*'){
+            console.log(num*num1)
+            alert(num*num1)
+        }else if(operator==='/'){
+            console.log(num/num1)
+            alert(num/num1)
+        }else if(operator==='%'){
+            console.log(num%num1)
+            alert(num%num1)
+        }else{
+            console.log("Invalid Operator")
+            alert("iInvalid Operator")
+        }
+        let Year=+prompt("Enter Year")
+        if(Year % 4 === 0 && Year % 100!==0){
+            console.log(Year="Is a Leap Year")
+            alert(Year+"Is a leap year")
+        }else if(Year % 400 === 0){
+            console.log(Year+"Is a leap Year")
+            alert(Year+"Is a leap year")
+        }else{
+            console.log(Year+"Is not a leap year")
+            alert(Year+"is Not a leap year")
+        }
+        let temp=prompt("Enter Todays Temperature")
+        if(temp>=30){
+            console.log("Its pretty Hot today")
+            alert("Its pretty Hot Today")
+        }else if(temp>=20&&temp<=29){
+            console.log("Its Warm")
+            alert("Its Warm")
+        }else if(temp>=10&&temp<=19){
+            console.log("Its Cool")
+            alert("Its Cool")
+        }else if(temp<10){
+            console.log("Palmer")
+            alert("Palmer")
+        }else{
+            console.log("Invalid Input")
+            alert("Invalid Input")
+        }
+        let marks=prompt("Enter Your Marks")
+    if(isNaN(marks)){
+        console.log("ERROR!Please enter a number")
+        alert("ERROR!Please enter a number")
+    }else if(marks>=90&&marks<=100){
+        console.log("A Grade")
+    }else if(marks>=80&&marks<=89){
+        console.log("B Grade")
+        alert("B Grade")
+    }else if(marks>=70&&marks<=79){
+        console.log("C Grade")
+        alert("C Grade")
+    }else if(marks>=50&&marks<=69){
+        console.log("D Grade")
+        alert("D Grade")
+    }else{
+        console.log("Fail")
+        alert("Fail")
+    }
+        let num0=+prompt("Enter First Number")
+        let numb1=+prompt("Enter second number")
+        let num2=+prompt("Enter third number")
+        if(isNaN(num0&&numb1&&num2)){
+            console.log("ERROR!Please enter a number")
+            alert("ERROR!Please enter a number")            
+        }else if(num0>numb1&&num0>num2){
+            console.log("Largest number is"+num0)
+            alert("Largest number is"+num0)
+        }else if(numb1>num0&&numb1>num2){
+            console.log("Largest number is"+numb1)
+            alert("Largest number is"+numb1)
+        }else if(num2>num0&&num2>numb1){
+            console.log("Largest Number is"+num2)
+            alert("Largest number is"+num2)
+        }else if(num0===nubm1&&numb1===num2){
+            console.log("All numbers are equal")
+            alert("All numbers are equal")
+        }else{
+            console.log("Two or more numbers are equal")
+        }
+        let username=prompt("Enter username")
+        let password=prompt("Enter Password")
+        if(username==""&&password==""){
+            console.log("Spaces cannot be blank")
+            alert("Spaces cannot be blank")
+        }else if(username==="admin"&&password==='12345678'){
+            console.log("Login succesful")
+            alert("Login succesful")
+        }else{
+            console.log("Incorrect Credentials")
+            alert("Incorrect Credentials")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

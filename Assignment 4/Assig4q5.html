@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <script>
+        let num=prompt("Enter First Number")
+        let num1=prompt("Enter Second Number")
+        let operator=prompt("Enter an operator(+,-,*,/,%)")
+        if(isNaN(num&&num1)){
+            console.log("Invalid Input,please enter a number")
+            alert("Invalid input,please enter a number")
+        }else if(operator==='+'){
+            console.log(num+num1)
+            alert(num+num1)
+        }else if(operator==='-'){
+            console.log(num-num1)
+            alert(num-num1)
+        }else if(operator==='*'){
+            console.log(num*num1)
+            alert(num*num1)
+        }else if(operator==='/'){
+            console.log(num/num1)
+            alert(num/num1)
+        }else if(operator==='%'){
+            console.log(num%num1)
+            alert(num%num1)
+        }else{
+            console.log("Invalid Operator")
+            alert("iInvalid Operator")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

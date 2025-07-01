@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Largest of three</title>
+    <script>
+        let num=+prompt("Enter First Number")
+        let num1=+prompt("Enter second number")
+        let num2=+prompt("Enter third number")
+        if(isNaN(num&&num1&&num2)){
+            console.log("ERROR!Please enter a number")
+            alert("ERROR!Please enter a number")            
+        }else if(num>num1&&num>num2){
+            console.log("Largest number is"+num)
+            alert("Largest number is"+num)
+        }else if(num1>num&&num1>num2){
+            console.log("Largest number is"+num1)
+            alert("Largest number is"+num1)
+        }else if(num2>num&&num2>num1){
+            console.log("Largest Number is"+num2)
+            alert("Largest number is"+num2)
+        }else if(num===num1&&num1===num2){
+            console.log("All numbers are equal")
+            alert("All numbers are equal")
+        }else{
+            console.log("Two or more numbers are equal")
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
