@@ -68,9 +68,9 @@ if(isNaN(age)){
             console.log("Consonant")
             alert("Consonant")
        }
-       let num=prompt("Enter First Number")
-        let num1=prompt("Enter Second Number")
-        let operator=prompt("Enter an operator(+,-,*,/,%)")
+       let num=+prompt("Enter First Number")
+        let num1=+prompt("Enter Second Number")
+        let operator=+prompt("Enter an operator(+,-,*,/,%)")
         if(isNaN(num&&num1)){
             console.log("Invalid Input,please enter a number")
             alert("Invalid input,please enter a number")
@@ -155,7 +155,7 @@ if(isNaN(age)){
         }else if(num2>num0&&num2>numb1){
             console.log("Largest Number is"+num2)
             alert("Largest number is"+num2)
-        }else if(num0===nubm1&&numb1===num2){
+        }else if(num0==nubm1&&numb1==num2){
             console.log("All numbers are equal")
             alert("All numbers are equal")
         }else{
